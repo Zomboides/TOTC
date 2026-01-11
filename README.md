@@ -122,13 +122,10 @@ For Project Zomboid mod installation, see [docs/INSTALL.txt](docs/INSTALL.txt) o
 │   ├── README.md                # Mod documentation
 │   ├── LEEME.md                 # Spanish documentation
 │   └── workshop.txt             # Steam Workshop metadata
-├── docs/                        # Comprehensive documentation
+├── docs/                        # Documentation
 │   ├── INSTALL.txt              # Installation guide
 │   ├── TECHNICAL.md             # Technical documentation
-│   ├── QUICKSTART.txt           # Quick start guide
-│   ├── GITHUB_PUBLISHING_GUIDE.md # GitHub publishing guide
-│   ├── STEAM_WORKSHOP_GUIDE.md  # Steam Workshop guide
-│   └── ...                      # Additional docs
+│   └── PUBLISHING.md            # Publishing guide
 ├── src/                         # Web application source
 │   ├── components/              # React components
 │   ├── pages/                   # Application pages
@@ -171,11 +168,7 @@ See [docs/CONTRIBUTING.md](TOTC_ThinkOfTheChildren/CONTRIBUTING.md) for detailed
 
 ## Publishing
 
-This project includes comprehensive guides for publishing to both Steam Workshop and GitHub:
-
-- **Steam Workshop**: [docs/STEAM_WORKSHOP_GUIDE.md](docs/STEAM_WORKSHOP_GUIDE.md)
-- **GitHub Releases**: [docs/GITHUB_PUBLISHING_GUIDE.md](docs/GITHUB_PUBLISHING_GUIDE.md)
-- **Publishing Checklist**: [docs/PUBLISHING_CHECKLIST.md](docs/PUBLISHING_CHECKLIST.md)
+See [docs/PUBLISHING.md](docs/PUBLISHING.md) for guides on publishing to GitHub and Steam Workshop.
 
 ---
 

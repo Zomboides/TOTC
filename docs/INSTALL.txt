@@ -1,89 +1,59 @@
 ========================================
-TOTC: Think Of The Children - Installation Guide
+TOTC: Think Of The Children
+Installation Guide
 ========================================
 
-INSTALLATION:
+QUICK INSTALL:
 
-1. Copy the entire "TOTC_ThinkOfTheChildren" folder to your Project Zomboid Workshop directory:
-
-   Windows: %USERPROFILE%\Zomboid\Workshop\
-   Linux: ~/.local/share/Zomboid/Workshop/
-   Mac: ~/Library/Application Support/Zomboid/Workshop/
+1. Copy "TOTC_ThinkOfTheChildren" folder to:
+   Windows: %USERPROFILE%\Zomboid\mods\
+   Linux: ~/.local/share/Zomboid/mods/
+   Mac: ~/Library/Application Support/Zomboid/mods/
 
 2. Launch Project Zomboid
 
-3. Go to the Mods menu and enable "TOTC: Think Of The Children"
+3. Go to Mods menu → Enable "TOTC: Think Of The Children"
 
-4. (Optional) Configure the mod in Sandbox Options:
-   - Start a new game or host a server
-   - Go to Sandbox Options
-   - Find the "TOTC" tab
-   - Adjust the settings:
-     * Child Zombie Spawn Chance (default: 10%)
-     * Child Zombie Size (default: 50%)
+4. Start a new game or load existing save
 
-5. Start playing!
+5. Configure in Sandbox Options > TOTC tab (optional)
 
 ========================================
-MOD STRUCTURE:
+SETTINGS:
+========================================
 
-TOTC_ThinkOfTheChildren/
-├── Contents/
-│   └── mods/
-│       └── TOTC_ThinkOfTheChildren/
-│           ├── mod.info (Mod metadata)
-│           ├── poster.png (Mod thumbnail)
-│           └── common/
-│               └── media/
-│                   ├── sandbox-options.txt (Configurable options)
-│                   └── lua/
-│                       ├── client/
-│                       │   └── TOTC_Main.lua (Main mod script)
-│                       └── shared/
-│                           └── Translate/
-│                               ├── EN/ (English translations)
-│                               └── ES/ (Spanish translations)
-├── workshop.txt (Steam Workshop metadata)
-├── preview.png (Steam Workshop preview image)
-├── README.md (Documentation in English)
-└── LEEME.md (Documentation in Spanish)
+Child Zombie Spawn Chance (0-100%)
+  Default: 10%
+  Controls percentage of zombies that spawn as children
+
+Child Zombie Size (10-100%)
+  Default: 50%
+  Controls size relative to normal zombies
 
 ========================================
 COMPATIBILITY:
-
-- Project Zomboid Build 42+
-- Project Zomboid Build 43.13.1+
-- Singleplayer: YES
-- Multiplayer: YES
-- Server-side: YES (settings controlled by server)
-
 ========================================
-CONFIGURATION:
 
-The mod adds two configurable options in Sandbox:
-
-1. Child Zombie Spawn Chance (0-100%)
-   - Controls what percentage of zombies spawn as children
-   - Default: 10%
-   - Example: Setting to 25 means 25% of zombies will be children
-
-2. Child Zombie Size (10-100%)
-   - Controls the size of child zombies relative to normal zombies
-   - Default: 50% (half the size)
-   - Example: Setting to 75 means children are 75% the size of adults
+✓ Project Zomboid Build 42+
+✓ Project Zomboid Build 43.13.1+
+✓ Singleplayer and Multiplayer
+✓ Most other mods
 
 ========================================
 TROUBLESHOOTING:
+========================================
 
-If the mod doesn't work:
-1. Make sure the mod is enabled in the Mods menu
-2. Check that you're starting a NEW game (or using Sandbox settings on existing saves)
-3. Verify the folder structure matches the structure above
-4. Check the console.txt file in your Zomboid folder for errors
+Mod not showing:
+- Verify folder is in correct location
+- Check mod is enabled in Mods menu
+- Review console.txt for errors
 
-For multiplayer:
-- The HOST must have the mod enabled
-- All CLIENTS must also have the mod enabled
-- Settings are controlled by the server's Sandbox configuration
+Settings not working:
+- Start a NEW game after enabling
+- Check Sandbox Options > TOTC tab
+
+Multiplayer:
+- Host AND clients must have mod enabled
+- Settings controlled by server
 
 ========================================

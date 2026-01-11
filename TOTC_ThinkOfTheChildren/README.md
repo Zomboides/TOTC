@@ -49,10 +49,10 @@ The mod is lightweight, performance-friendly, and fully configurable through the
 
 1. **Download** the latest release from [GitHub Releases](../../releases)
 2. **Extract** the `TOTC_ThinkOfTheChildren` folder
-3. **Copy** to your Project Zomboid Workshop directory:
-   - **Windows**: `%USERPROFILE%\Zomboid\Workshop\`
-   - **Linux**: `~/.local/share/Zomboid/Workshop/`
-   - **Mac**: `~/Library/Application Support/Zomboid/Workshop/`
+3. **Copy** to your Project Zomboid mods directory:
+   - **Windows**: `%USERPROFILE%\Zomboid\mods\`
+   - **Linux**: `~/.local/share/Zomboid/mods/`
+   - **Mac**: `~/Library/Application Support/Zomboid/mods/`
 4. Launch the game and enable the mod in the **Mods** menu
 5. (Optional) Configure in **Sandbox Options > TOTC**
 
