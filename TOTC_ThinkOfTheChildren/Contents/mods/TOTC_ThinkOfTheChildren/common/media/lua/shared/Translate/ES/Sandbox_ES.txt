@@ -1,0 +1,7 @@
+Sandbox_ES = {
+    Sandbox_TOTC = "TOTC: Piensa en los Niños",
+    Sandbox_TOTC_ChildZombieChance = "Probabilidad de Zombie Niño",
+    Sandbox_TOTC_ChildZombieChance_tooltip = "Porcentaje de probabilidad de que un zombie aparezca con tamaño de niño. <LINE> <LINE> Por defecto: 10%",
+    Sandbox_TOTC_ChildZombieSize = "Tamaño de Zombie Niño",
+    Sandbox_TOTC_ChildZombieSize_tooltip = "Tamaño de los zombies niños como porcentaje del tamaño normal de un zombie. <LINE> <LINE> Por defecto: 50% (mitad del tamaño)",
+}

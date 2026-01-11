@@ -1,0 +1,7 @@
+name=TOTC: Think Of The Children
+poster=poster.png
+id=TOTC_ThinkOfTheChildren
+description=<TEXT> "Won't somebody please think of the children?!" - Helen Lovejoy <LINE> <LINE> This mod adds smaller zombies to the game, representing children zombies. A configurable percentage of zombies will spawn at a reduced size. <LINE> <LINE> Features: <LINE> - Configurable spawn chance (default: 10%) <LINE> - Configurable size reduction (default: 50%) <LINE> - Works with Build 42+
+url=https://github.com/yourusername/TOTC_ThinkOfTheChildren
+modversion=1.0.0
+pzversion=43.13.1

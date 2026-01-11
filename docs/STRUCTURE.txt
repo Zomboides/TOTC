@@ -1,0 +1,65 @@
+========================================
+MOD STRUCTURE - TOTC: Think Of The Children
+========================================
+
+TOTC_ThinkOfTheChildren/
+│
+├── Contents/
+│   └── mods/
+│       └── TOTC_ThinkOfTheChildren/
+│           ├── mod.info                    [Mod metadata and info]
+│           ├── poster.png                  [Mod thumbnail image]
+│           └── common/                     [Build 42/43 common folder]
+│               └── media/
+│                   ├── sandbox-options.txt [Configurable settings]
+│                   └── lua/
+│                       ├── client/
+│                       │   └── TOTC_Main.lua [Main mod script]
+│                       └── shared/
+│                           └── Translate/
+│                               ├── EN/
+│                               │   └── Sandbox_EN.txt [English]
+│                               └── ES/
+│                                   └── Sandbox_ES.txt [Spanish]
+│
+├── media/                              [Original media assets]
+│   └── captura_de_pantalla_*.png      [Original logo]
+│
+├── workshop.txt                        [Steam Workshop metadata]
+├── preview.png                         [Steam preview image]
+│
+├── README.md                           [Full documentation (EN)]
+├── LEEME.md                            [Full documentation (ES)]
+├── TECHNICAL.md                        [Technical documentation]
+├── INSTALL.txt                         [Installation guide]
+├── QUICKSTART.txt                      [Quick start guide]
+└── STRUCTURE.txt                       [This file]
+
+========================================
+KEY FILES:
+========================================
+
+1. TOTC_Main.lua
+   - Hooks into OnZombieCreate event
+   - Randomly scales zombies based on settings
+   - 17 lines of code
+
+2. sandbox-options.txt
+   - Defines 2 configurable options:
+     * Child Zombie Spawn Chance (0-100%)
+     * Child Zombie Size (10-100%)
+
+3. Translation files
+   - EN: English translations
+   - ES: Spanish translations
+   - Includes option names and tooltips
+
+4. mod.info
+   - Mod name, version, description
+   - Compatible with Build 43.13.1+
+
+========================================
+TOTAL FILES: 13
+TOTAL SIZE: ~650 KB (mostly images)
+CODE SIZE: <2 KB
+========================================

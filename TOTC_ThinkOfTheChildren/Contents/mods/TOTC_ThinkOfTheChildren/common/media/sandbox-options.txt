@@ -1,0 +1,21 @@
+VERSION = 1,
+
+option TOTC.ChildZombieChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = TOTC,
+    translation = TOTC_ChildZombieChance,
+}
+
+option TOTC.ChildZombieSize
+{
+    type = integer,
+    min = 10,
+    max = 100,
+    default = 50,
+    page = TOTC,
+    translation = TOTC_ChildZombieSize,
+}
