@@ -1,7 +1,0 @@
-Sandbox_EN = {
-    Sandbox_TOTC = "TOTC: Think Of The Children",
-    Sandbox_TOTC_ChildZombieChance = "Child Zombie Spawn Chance",
-    Sandbox_TOTC_ChildZombieChance_tooltip = "Percentage chance for a zombie to spawn as a child-sized zombie. <LINE> <LINE> Default: 10%",
-    Sandbox_TOTC_ChildZombieSize = "Child Zombie Size",
-    Sandbox_TOTC_ChildZombieSize_tooltip = "Size of child zombies as a percentage of normal zombie size. <LINE> <LINE> Default: 50% (half size)",
-}

@@ -6,7 +6,8 @@
 
 > *"Won't somebody please think of the children?!"* - Helen Lovejoy, The Simpsons
 
-[![Project Zomboid](https://img.shields.io/badge/Project%20Zomboid-Build%2042%2F43-green?style=for-the-badge)](https://projectzomboid.com)
+[![Project Zomboid](https://img.shields.io/badge/Project%20Zomboid-Build%2042.13.1-green?style=for-the-badge)](https://projectzomboid.com)
+[![Mod Version](https://img.shields.io/badge/Mod%20Version-1.0.1-orange?style=for-the-badge)]()
 [![React](https://img.shields.io/badge/React-18.3.1-blue?style=for-the-badge&logo=react)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
@@ -39,8 +40,8 @@ The TOTC mod introduces child-sized zombies to Project Zomboid:
 - **Adjustable Size**: Set how small child zombies are compared to adults (default: 50%)
 - **Sandbox Integration**: Easy configuration through the game's built-in Sandbox Options
 - **Multiplayer Ready**: Works seamlessly in singleplayer and multiplayer servers
-- **Build 42/43 Compatible**: Fully compatible with the latest Project Zomboid versions
-- **Lightweight**: Minimal performance impact - only runs once per zombie spawn
+- **Build 42 Compatible**: Uses the new Build 42 mod structure (`common/` + `42/` folders)
+- **Lightweight**: Minimal performance impact - uses OnTick for reliable zombie processing
 - **Bilingual**: Includes English and Spanish translations
 - **No Dependencies**: Works standalone without requiring other mods
 
@@ -117,7 +118,12 @@ For Project Zomboid mod installation, see [docs/INSTALL.txt](docs/INSTALL.txt) o
 
 ```
 ├── TOTC_ThinkOfTheChildren/     # Project Zomboid mod files
-│   ├── Contents/                # Mod content (Build 42/43 structure)
+│   ├── Contents/mods/TOTC.../   # Mod content (Steam Workshop structure)
+│   │   ├── common/              # Shared assets (required, even if empty)
+│   │   │   └── media/           # Common media folder
+│   │   └── 42/                  # Build 42 specific files
+│   │       ├── mod.info         # Mod metadata with pzversion=42.x
+│   │       └── media/           # Lua scripts, translations, etc.
 │   ├── media/                   # Original assets
 │   ├── README.md                # Mod documentation
 │   ├── LEEME.md                 # Spanish documentation

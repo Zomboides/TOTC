@@ -5,10 +5,14 @@ Installation Guide
 
 QUICK INSTALL:
 
-1. Copy "TOTC_ThinkOfTheChildren" folder to:
+1. Copy the folder "Contents/mods/TOTC_ThinkOfTheChildren" to:
    Windows: %USERPROFILE%\Zomboid\mods\
    Linux: ~/.local/share/Zomboid/mods/
    Mac: ~/Library/Application Support/Zomboid/mods/
+
+   Result: Zomboid/mods/TOTC_ThinkOfTheChildren/
+           ├── common/
+           └── 42/
 
 2. Launch Project Zomboid
 
@@ -34,17 +38,28 @@ Child Zombie Size (10-100%)
 COMPATIBILITY:
 ========================================
 
-✓ Project Zomboid Build 42+
-✓ Project Zomboid Build 43.13.1+
+✓ Project Zomboid Build 42.13.1+
 ✓ Singleplayer and Multiplayer
 ✓ Most other mods
+
+NOTE: Uses Build 42 folder structure with
+common/ and 42/ version folders.
 
 ========================================
 TROUBLESHOOTING:
 ========================================
 
 Mod not showing:
-- Verify folder is in correct location
+- Verify folder structure (Build 42):
+  TOTC_ThinkOfTheChildren/
+  ├── common/           <- REQUIRED (even if empty)
+  │   └── media/
+  └── 42/
+      ├── mod.info
+      ├── poster.png
+      └── media/
+          ├── sandbox-options.txt
+          └── lua/...
 - Check mod is enabled in Mods menu
 - Review console.txt for errors
 

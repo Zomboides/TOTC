@@ -1,0 +1,6 @@
+name=TOTC: Think Of The Children
+id=TOTC_ThinkOfTheChildren
+description=Adds smaller child-sized zombies to the game
+poster=poster.png
+modversion=1.0.0
+pzversion=42.13.1

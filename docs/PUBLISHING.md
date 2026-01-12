@@ -119,8 +119,16 @@ Update README badges with real Workshop URL.
 ## Troubleshooting
 
 ### Mod not appearing in game
-- Verify folder structure matches expected layout
-- Check `mod.info` is valid
+- Verify folder structure:
+  ```
+  Zomboid/mods/TOTC_ThinkOfTheChildren/
+  ├── mod.info
+  ├── poster.png
+  └── media/
+      ├── sandbox-options.txt
+      └── lua/...
+  ```
+- Check `mod.info` exists and is valid
 - Look for errors in `%USERPROFILE%\Zomboid\console.txt`
 
 ### Steam upload fails

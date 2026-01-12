@@ -20,6 +20,8 @@
 
 ## Description
 
+> ⚠️ **Build 42 Limitation**: Visual zombie scaling is not currently possible via Lua. This mod marks zombies as "children" in preparation for future Java-based visual scaling via the Leaf framework. See [docs/LEAF_FUTURE.md](docs/LEAF_FUTURE.md) for the development roadmap.
+
 This mod introduces child-sized zombies to Project Zomboid, adding more variety and realism to the apocalypse. A configurable percentage of zombies will spawn at a reduced size, making the world feel more diverse and emotionally impactful.
 
 The mod is lightweight, performance-friendly, and fully configurable through the game's Sandbox Options menu.
