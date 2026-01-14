@@ -194,5 +194,4 @@ The Project Zomboid mod and associated assets are provided as-is for educational
 
 ---
 
-**Made with ❤️ for the Project Zomboid community**</content>
-<parameter name="filePath">c:\Users\raulillana\ModsPZ\PZ_MOD_TOTC\project\README.md
+**Made with ❤️ for the Project Zomboid community**
